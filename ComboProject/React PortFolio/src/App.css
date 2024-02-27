@@ -1,0 +1,22 @@
+@keyframes gradient {
+    0% {background-position: 0%;}
+    50% {background-position: 100%;}
+    100% {background-position: 0%;}
+}
+
+body {
+    background-image: linear-gradient(to right , #000 0%, darkslategray,blueviolet 50%,darkblue 50%, #000 100%);
+    background-size: 200% 100%;
+    animation: gradient 4s ease infinite;
+}
+@keyframes gradient {
+    0% {background-position: 0%;}
+    50% {background-position: 100%;}
+    100% {background-position: 0%;}
+}
+
+color {
+    background-image: linear-gradient(to right , #000 0%, darkslategray,blueviolet 50%,darkblue 50%, #000 100%);
+    background-size: 200% 100%;
+    animation: gradient 3s ease infinite;
+}
